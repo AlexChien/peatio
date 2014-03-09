@@ -47,6 +47,7 @@ gem 'active_hash'
 gem 'pusher'
 gem 'http_accept_language'
 gem "globalize", "~> 4.0.0"
+gem 'money-tree'
 
 group :development, :test do
   gem 'factory_girl_rails'
@@ -61,6 +62,7 @@ group :development, :test do
   gem 'timecop'
   gem 'dotenv-rails'
   gem 'rspec-rails'
+  gem 'debugger'
 end
 
 group :test do
